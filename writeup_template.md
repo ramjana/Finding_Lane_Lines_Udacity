@@ -21,13 +21,12 @@ The goals / steps of this project are the following:
 
 ---
 
-## Reflection
+## Pipeline stages
 
-## 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 7 stages.
+Finding lane line pipeline consisted of 5 stages.
 
-### 1  Covnvert  images to grayscale
+### 1  Convert  images to grayscale
   convert image to grayscale image by calling grayscale(image). The stage converts input image into single channel varying degree of gray shades. 
 ### 2.  Apply gaussian blur to grayscale image
   Apply gaussian smoothing function to graysccall image to reduce image noise and reduce detail. Canny edge detection is susceptible to  Image noise and this stage is used to reduce noise.
