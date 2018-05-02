@@ -54,7 +54,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text][image6]
 
 
-## 2. Identify potential shortcomings with your current pipeline
+## 2.  Shortcomings 
 
 
 One potential shortcoming would be what would happen when lane lines are curved lines. my pipeline works very well to certain degree of curved but if the roads are winding and lanes are mix of straight and curved then my pipeline certainly would fail in detecting them.
@@ -62,7 +62,7 @@ One potential shortcoming would be what would happen when lane lines are curved 
  
 
 
-## 3. Suggest possible improvements to your pipeline
+## 3. Possible improvements 
 
 A possible improvement would be to adjust region of interest detection to fit lane width as it varies in successive frames. As you can see in challenge video, as lane width changes in successiv frames, right lane line detection is either too short or outside of actial lane. my possible explanation is region of interest is do not cover the variablitiy in the video. 
 
